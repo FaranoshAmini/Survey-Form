@@ -1,0 +1,38 @@
+<!Doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="index.css" />
+		<title>Survey Form</title>
+	</head>
+	<body>
+		<div>
+		<h1 id="title">Survey Form</h1>
+		<p id="description">Let us know we can improve freecodecamp</p>
+		<form action="" id="survey-form" >
+			<label for="" id="name-label">Name : </label>
+			<input type="text" id="name" placeholder="Enter your name" required/> <br />
+			<label for="" id="email-label">Email : </label>
+			<input type="email" id="email" placeholder="Enter your email" required/> <br />
+			<label for="" id="number-label">Age : </label>
+			<input type="number" id="number" placeholder="Enter your age" min="18" max="30"/><br />
+			<label for="" id="country-label">Country : </label>
+			<select name="" id="dropdown">
+				<option value="">Afghanistan</option>
+				<option value="">United Kingdom</option> 
+				<option value="">Canada</option>
+			</select><br />
+			<label for="" id="gender-label">Gender : </label><br />
+				<input type="radio" value="male" id="gender-option" name="gender" />Male
+				<input type="radio" value="female" id="gender-option" name="gender"/>Female
+				<input type="radio" value="personal" id="gender-option" name="gender"/>Personal <br />
+			<label for="" id="language-label">Languages  : </label><br />
+				<input type="checkbox" value="English" id="language-option"/>English
+				<input type="checkbox" value="Persian" id="language-option"/>Persian
+				<input type="checkbox" value="Spanish" id="language-option"/>Spanish<br />
+			<label for="" id="comment-label">Comment :</label><br />
+				<textarea name="" id="comment" cols="27" rows="5">Write your message here!</textarea><br />
+			<button type="submit" id="submit">Submit</button>
+		</form>
+		</div>
+	</body>
+</html>
